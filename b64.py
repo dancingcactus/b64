@@ -21,6 +21,7 @@ if args.encode == True:
 else:
     thestring = base64.b64decode(args.string)
 
+print ""
 print thestring
 
 if args.copy:
